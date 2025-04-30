@@ -7,12 +7,14 @@ Switch to root and its environment via su -.
 $ su -
 Password:
 #
+
 Install sudo via apt install sudo.
 
 # apt install sudo
 Verify whether sudo was successfully installed via dpkg -l | grep sudo.
 
 # dpkg -l | grep sudo
+
 Step 2: Adding User to sudo Group
 Add user to sudo group via adduser <username> sudo.
 
