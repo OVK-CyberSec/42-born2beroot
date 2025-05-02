@@ -224,7 +224,10 @@ To send user a warning message 7 days *(defaults to 7 anyway)* before password e
 ```
 162 PASS_WARN_AGE   7
 ```
-
+After that use:
+```
+sudo chage -M 30 -m 2 -W 7 <username>
+```
 #### Password Strength
 Secondly, to set up policies in relation to password strength, install the *libpam-pwquality* package.
 ```
